@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar::before{
+    content:"";
+    background-color: black;
+    height:100%;
+    width:100%;
+    opacity:0.9;
+    z-index:-1;
+    position: absolute;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+
+#logo img{
+    margin: 43px 51px;
+}
+
+#navbar ul{
+    display:flex;
+}
+
+#navbar ul{
+color: white;
+list-style:none;
+font size:2.5cm;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 21px 21px;
+    border-radius: 3px;
+    color:rgb(221, 229, 235);
+    text-decoration: none;
+}
+
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: rgb(145, 13, 13);
+}
+
+#home{
+    display:flex;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: x-large;
+    font-weight: bolder;
+    color:whitesmoke;
+}
+
+
+#home::before{
+    content:"";
+    background: url('B.jpg') ;
+    height:78%;
+    width:100%;
+
+    opacity:0.9;
+    z-index:-1;
+    position: absolute;
+background-repeat: no-repeat;
+    
+}
+
+#home2{
+    display:flex;
+    display: block;
+    padding: 2px 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    border: 2px solid wheat;
+    height: 100px;
+    font-size: x-large;
+    font-weight: bolder;
+    color:whitesmoke;
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+font-family: <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>;
+}
+
+
+#home3{
+    display:flex;
+    display: block;
+    position: static;
+    padding: 5px 5px;
+    margin: 4px;
+    border: 2px solid wheat;
+    height: 100px;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color:whitesmoke;
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+font-family: <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>;
+}
+
+#for{
+    dislay:block;
+    display:flexbox;
+    color:rgb(191, 244, 19);
+    font-size: 2cm;
+}
